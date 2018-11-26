@@ -2,4 +2,7 @@ java.lang.NoClassDefFoundError: Could not initialize class xxx
 解决：检查初始化静态资源static代码块的时候是否出错
 
 spring boot中非controller 使用@Autowired 注入service为空
-解决 在@Config类中注册@Bean
+解决：在@Config类中注册@Bean
+
+'stepUp' called on an object that does not implement interface HTMLInputElem
+解决：传入后台的参数应是input的值，注意是否传成了input
