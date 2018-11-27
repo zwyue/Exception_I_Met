@@ -6,3 +6,7 @@ spring boot中非controller 使用@Autowired 注入service为空
 
 'stepUp' called on an object that does not implement interface HTMLInputElem
 解决：传入后台的参数应是input的值，注意是否传成了input
+
+No primary or default constructor found for interface java.util.List
+解决：前端传入的数组，后台使用list接收的时候须填上@RequestParam
+          形如@RequestParam(value = "permIds[]") List<Integer> permIds
