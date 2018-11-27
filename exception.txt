@@ -1,4 +1,4 @@
-java.lang.NoClassDefFoundError: Could not initialize class xxx
+﻿java.lang.NoClassDefFoundError: Could not initialize class xxx
 解决：检查初始化静态资源static代码块的时候是否出错
 
 spring boot中非controller 使用@Autowired 注入service为空
@@ -10,3 +10,7 @@ spring boot中非controller 使用@Autowired 注入service为空
 No primary or default constructor found for interface java.util.List
 解决：前端传入的数组，后台使用list接收的时候须填上@RequestParam
       形如@RequestParam(value = "permIds[]") List<Integer> permIds
+
+JSON.parse: unexpected character at line 1 column 1 of the JSON data
+解决：用Ajax请求时，如果后端返回的并非json，可以把Ajax的dataType选项去掉
+      或者将后台返回数据改为json(未尝试此方法)，同时需要在方法上添加@@ResponseBody
