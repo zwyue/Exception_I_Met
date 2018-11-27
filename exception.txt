@@ -1,12 +1,12 @@
 java.lang.NoClassDefFoundError: Could not initialize class xxx
-½â¾ö£º¼ì²é³õÊ¼»¯¾²Ì¬×ÊÔ´static´úÂë¿éµÄÊ±ºòÊÇ·ñ³ö´í
+è§£å†³ï¼šæ£€æŸ¥åˆå§‹åŒ–é™æ€èµ„æºstaticä»£ç å—çš„æ—¶å€™æ˜¯å¦å‡ºé”™
 
-spring bootÖĞ·Çcontroller Ê¹ÓÃ@Autowired ×¢ÈëserviceÎª¿Õ
-½â¾ö£ºÔÚ@ConfigÀàÖĞ×¢²á@Bean
+spring bootä¸­écontroller ä½¿ç”¨@Autowired æ³¨å…¥serviceä¸ºç©º
+è§£å†³ï¼šåœ¨@Configç±»ä¸­æ³¨å†Œ@Bean
 
 'stepUp' called on an object that does not implement interface HTMLInputElem
-½â¾ö£º´«ÈëºóÌ¨µÄ²ÎÊıÓ¦ÊÇinputµÄÖµ£¬×¢ÒâÊÇ·ñ´«³ÉÁËinput
+è§£å†³ï¼šä¼ å…¥åå°çš„å‚æ•°åº”æ˜¯inputçš„å€¼ï¼Œæ³¨æ„æ˜¯å¦ä¼ æˆäº†input
 
 No primary or default constructor found for interface java.util.List
-½â¾ö£ºÇ°¶Ë´«ÈëµÄÊı×é£¬ºóÌ¨Ê¹ÓÃlist½ÓÊÕµÄÊ±ºòĞëÌîÉÏ@RequestParam
-          ĞÎÈç@RequestParam(value = "permIds[]") List<Integer> permIds
+è§£å†³ï¼šå‰ç«¯ä¼ å…¥çš„æ•°ç»„ï¼Œåå°ä½¿ç”¨listæ¥æ”¶çš„æ—¶å€™é¡»å¡«ä¸Š@RequestParam
+      å½¢å¦‚@RequestParam(value = "permIds[]") List<Integer> permIds
